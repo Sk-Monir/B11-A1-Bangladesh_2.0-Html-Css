@@ -1,28 +1,48 @@
-/* conmmon css start */
+/* ------------------------------------------------------------------------
+---------------------------------------------------------------------------
+Common Css Start
+---------------------------------------------------------------------------
+------------------------------------------------------------------------ */
 * {
     margin: 0;
     padding: 0;
     outline: 0;
     box-sizing: border-box;
 }
+
 body {
     font-family: "Fira Sans", serif;
 }
+
 .container {
     width: 1240px;
     margin: 0 auto;
 }
-/* conmmon css End */
+
+/* ------------------------------------------------------------------------
+---------------------------------------------------------------------------
+Common Css end
+---------------------------------------------------------------------------
+------------------------------------------------------------------------ */
+
+/* ------------------------------------------------------------------------
+---------------------------------------------------------------------------
+ header section start
+---------------------------------------------------------------------------
+------------------------------------------------------------------------ */
+/* nav section start */
 .menu {
     display: flex;
     justify-content: space-between;
     padding: 20px 0;
 }
+
 .menu h4 {
     color: #0E0E0E;
     font-size: 32px;
     font-weight: 700;
 }
+
 .menu .btn {
     color: #006A50;
     padding: 15px 20px;
@@ -33,11 +53,15 @@ body {
     font-size: 18px;
     transition: all linear 0.3s;
 }
+
 .menu .btn:hover {
     background: #006A50;
     color: white;
     border: 1px solid #006A50;
 }
+
+/* nav section end */
+/* banner section start */
 .banner {
     display: flex;
     justify-content: space-between;
@@ -46,18 +70,21 @@ body {
     border-radius: 24px;
     padding: 40px;
 }
+
 .banner h5 {
     color: rgba(14, 14, 14, 0.5);
     font-size: 24px;
     font-weight: 500;
     margin-bottom: 20px;
 }
+
 .banner h1 {
     color: rgb(14, 14, 14);
     font-size: 56px;
     font-weight: 700;
     margin-bottom: 20px;
 }
+
 .banner .btn {
     color: #FFFFFF;
     background: #006A50;
@@ -68,8 +95,16 @@ body {
     font-size: 18px;
     transition: all linear 0.3s;
 }
+
 .banner .btn:hover {
     color: #006A50;
     border: 1px solid #006A50;
     background: transparent;
 }
+
+/* banner section end */
+/* ------------------------------------------------------------------------
+---------------------------------------------------------------------------
+Header Section end
+---------------------------------------------------------------------------
+------------------------------------------------------------------------ */
