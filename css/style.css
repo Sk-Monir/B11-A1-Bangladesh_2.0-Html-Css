@@ -241,6 +241,28 @@ Common/Shared Style End
 }
 
 /* Vision Section End */
+/* Quote Section Start */
+#Quote .container {
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+}
+
+#Quote .Quote_info {
+    background: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+
+#Quote .sec_text {
+    padding-top: 20px;
+}
+
+#Quote .sec_ttl_3 {
+    margin-bottom: 0;
+}
+
+/* Quote Section End */
 /* ------------------------------------------------------------------------
 ---------------------------------------------------------------------------
 Header Section end
