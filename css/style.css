@@ -395,6 +395,39 @@ option {
 }
 
 /* Donate Today Section End */
+/* Subscribe Newsletter Section Start */
+#subscribe .container {
+    background: #C6E4D6;
+    border-radius: 15px;
+    padding: 70px;
+}
+
+#subscribe .sec_text {
+    width: 60%;
+    margin: 0 auto;
+}
+
+#subscribe .sub_input {
+    margin: 20px 0;
+
+}
+
+#subscribe .sub_input input {
+    width: 50%;
+    padding: 17px;
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
+    border-radius: 8px 0 0 8px;
+
+}
+
+#subscribe .sub_input .btn {
+    border-radius: 0 8px 8px 0;
+    margin-left: -5px;
+}
+
+/* Subscribe Newsletter Section End */
 /* ------------------------------------------------------------------------
 ---------------------------------------------------------------------------
 Header Section end
