@@ -16,7 +16,7 @@ body {
 }
 
 section {
-    margin-bottom: 100px;
+    margin-bottom: 80px;
 }
 
 a {
@@ -49,6 +49,7 @@ a {
     font-weight: 600;
     font-size: 18px;
     transition: all linear 0.3s;
+    cursor: pointer;
 }
 
 .btn:hover {
@@ -125,7 +126,7 @@ Common/Shared Style End
     background: #C6E4D6;
     border-radius: 16px;
     padding: 40px;
-    margin-bottom: 50px;
+    margin-bottom: 80px;
 }
 
 .banner h5 {
@@ -303,6 +304,7 @@ option {
     border-radius: 5px;
     font-size: 16px;
     background: #C6E4D6;
+    cursor: pointer;
 }
 
 #opinion .w_70 {
@@ -340,6 +342,59 @@ option {
 }
 
 /* Recent News Section End */
+/* Donate Today Section start */
+#Donate .sec_text {
+    width: 90%;
+    margin: 0 auto;
+}
+
+#Donate .donate_cards {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#Donate .donate_card {
+    background: #fff;
+    padding: 40px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 10px;
+    transition: .4s all linear;
+}
+
+#Donate .donate_card .sec_ttl {
+    color: #0E0E0EA9;
+
+}
+
+#Donate .donate_card:hover {
+    background: #C6E4D6;
+}
+
+#Donate .active {
+    background: #C6E4D6;
+}
+
+#Donate .donate_card p {
+    margin-bottom: 0;
+}
+
+#Donate .input {
+    margin: 25px 0;
+}
+
+#Donate input {
+    width: 85%;
+    text-align: center;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 400;
+    border: none;
+    border-radius: 2px;
+}
+
+/* Donate Today Section End */
 /* ------------------------------------------------------------------------
 ---------------------------------------------------------------------------
 Header Section end
