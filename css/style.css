@@ -1,6 +1,6 @@
 /* ------------------------------------------------------------------------
 ---------------------------------------------------------------------------
-Common Css Start
+Common/Shared Style Start
 ---------------------------------------------------------------------------
 ------------------------------------------------------------------------ */
 * {
@@ -15,14 +15,79 @@ body {
     background: rgba(221, 221, 221, 0.3);
 }
 
+section {
+    margin-bottom: 100px;
+}
+
+a {
+    text-decoration: none;
+}
+
 .container {
     width: 1240px;
     margin: 0 auto;
 }
 
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.center {
+    text-align: center;
+}
+
+
+.btn {
+    color: #FFFFFF;
+    background: #006A50;
+    padding: 15px 20px;
+    border: 1px solid #006A50;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 18px;
+    transition: all linear 0.3s;
+}
+
+.btn:hover {
+    color: #006A50;
+    border: 1px solid #006A50;
+    background: transparent;
+}
+
+.sec_ttl {
+    color: #0E0E0E;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.sec_ttl_2 {
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.sec_ttl_3 {
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.sec_text {
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
 /* ------------------------------------------------------------------------
 ---------------------------------------------------------------------------
-Common Css end
+Common/Shared Style End
 ---------------------------------------------------------------------------
 ------------------------------------------------------------------------ */
 
@@ -33,8 +98,6 @@ Common Css end
 ------------------------------------------------------------------------ */
 /* nav section start */
 .menu {
-    display: flex;
-    justify-content: space-between;
     padding: 20px 0;
 }
 
@@ -46,13 +109,8 @@ Common Css end
 
 .menu .btn {
     color: #006A50;
-    padding: 15px 20px;
     border: 1px solid #006A50;
-    border-radius: 8px;
     background: transparent;
-    font-weight: 600;
-    font-size: 18px;
-    transition: all linear 0.3s;
 }
 
 .menu .btn:hover {
@@ -64,19 +122,17 @@ Common Css end
 /* nav section end */
 /* banner section start */
 .banner {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     background: #C6E4D6;
-    border-radius: 15px;
+    border-radius: 16px;
     padding: 40px;
+    margin-bottom: 50px;
 }
 
 .banner h5 {
     color: rgba(14, 14, 14, 0.5);
     font-size: 24px;
     font-weight: 500;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 .banner h1 {
@@ -86,24 +142,105 @@ Common Css end
     margin-bottom: 20px;
 }
 
-.banner .btn {
-    color: #FFFFFF;
-    background: #006A50;
-    padding: 15px 20px;
-    border: 1px solid #006A50;
-    border-radius: 8px;
-    font-weight: 600;
-    font-size: 18px;
-    transition: all linear 0.3s;
+/* banner section end */
+/* Pillars Section Start */
+
+#pillars .pillars_items {
+    margin-top: 40px;
 }
 
-.banner .btn:hover {
-    color: #006A50;
-    border: 1px solid #006A50;
+#pillars .pillars_item {
+    width: 310px;
+    height: 250px;
+    padding: 20px;
+    border-radius: 10px;
+    background: #fff;
+    border: 1px solid rgba(14, 14, 14, 0.15)
+}
+
+#pillars img {
+    margin-bottom: 20px;
+}
+
+/* Pillars Section End */
+/* Vision Section Start */
+#vision .vision_items {
+    margin-top: 40px;
+}
+
+#vision .vision_item {
+    width: 411px;
+    height: 325px;
+    padding: 40px 20px 20px 20px;
+    border-radius: 10px;
+    background: #fff;
+}
+
+#vision img {
+    margin-bottom: 20px;
+}
+
+#vision .btn {
+    padding: 10px 15px;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+/* Card-1 */
+#vision .item-1 {
+    border: 1px solid rgba(84, 144, 245, .4);
+    background: rgba(84, 144, 245, .2);
+}
+
+#vision .item-1 .btn {
+    background: rgba(84, 144, 245, 1);
+    border: 1px solid rgba(84, 144, 245, 1);
+
+}
+
+#vision .item-1 .btn:hover {
+    color: rgba(84, 144, 245, 1);
+    border: 1px solid rgba(84, 144, 245, 1);
     background: transparent;
 }
 
-/* banner section end */
+/* Card-1 */
+#vision .item-2 {
+    border: 1px solid rgba(9, 161, 92, .4);
+    background: rgba(198, 228, 214, 1);
+}
+
+#vision .item-2 .btn {
+    background: rgba(9, 161, 92, 1);
+    border: 1px solid rgba(9, 161, 92, 1);
+
+}
+
+#vision .item-2 .btn:hover {
+    color: rgba(9, 161, 92, 1);
+    border: 1px solid rgba(9, 161, 92, 1);
+    background: transparent;
+}
+
+/* Card-1 */
+#vision .item-3 {
+    border: 1px solid rgba(255, 194, 57, .4);
+    background: rgba(247, 235, 207, 1);
+}
+
+#vision .item-3 .btn {
+    background: rgba(255, 194, 57, 1);
+    border: 1px solid rgba(255, 194, 57, 1);
+
+}
+
+#vision .item-3 .btn:hover {
+    color: rgba(255, 194, 57, 1);
+    border: 1px solid rgba(255, 194, 57, 1);
+    background: transparent;
+}
+
+/* Vision Section End */
 /* ------------------------------------------------------------------------
 ---------------------------------------------------------------------------
 Header Section end
