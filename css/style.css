@@ -263,6 +263,59 @@ Common/Shared Style End
 }
 
 /* Quote Section End */
+/* Your Opinion Section start */
+#opinion .faq {
+    background: #FFFFFF;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#opinion table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#opinion th {
+    border: 1px solid #ddd;
+    padding: 20px;
+    background: #C6E4D6;
+}
+
+#opinion .right_border {
+    border-right: none;
+}
+
+#opinion .left_border {
+    border-left: none;
+}
+
+#opinion td {
+    border: 1px solid #ddd;
+    padding: 20px;
+    font-size: 16px;
+}
+
+#opinion select,
+option {
+    border: 1px solid #0E0E0E;
+    color: #0E0E0E;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    background: #C6E4D6;
+}
+
+#opinion .w_70 {
+    width: 70%;
+    text-align: left;
+}
+
+#opinion .w_30 {
+    width: 30%;
+    text-align: center;
+}
+
+/* Your Opinion Section End */
 /* ------------------------------------------------------------------------
 ---------------------------------------------------------------------------
 Header Section end
