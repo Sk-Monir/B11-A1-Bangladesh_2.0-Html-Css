@@ -316,6 +316,30 @@ option {
 }
 
 /* Your Opinion Section End */
+/* Recent News Section Start */
+#Recent .Recent_news {
+    margin-top: 40px;
+}
+
+#Recent .Recent_news .news_item {
+    padding: 40px;
+    border-radius: 15px;
+    background: #fff;
+}
+
+#Recent .Recent_news .news_item {
+    margin-bottom: 20px;
+}
+
+#Recent .Recent_news .news_item img {
+    border-radius: 15px;
+}
+
+#Recent .Recent_news .news_item .news_info img {
+    margin-bottom: 20px;
+}
+
+/* Recent News Section End */
 /* ------------------------------------------------------------------------
 ---------------------------------------------------------------------------
 Header Section end
